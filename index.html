@@ -1,11 +1,3 @@
-
-<html>
-<head>
-<title>CV_00000000_Shofa</title>
-  
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
 <!DOCTYPE html>
 <!-- Created Using Easy HTML v1.4.5 -->
 <!-- https://play.google.com/store/apps/details?id=ak.andro.easyhtml -->
@@ -13,40 +5,188 @@
 
 <html>
 <head>
-<title>Perkenalan</title>
+<title>Chart & Check out_00000000_Ziad</title>
+  
   <style>
-  body{
-    background:pink;
-    color:black;
-    background-size:cover;
-    }
+  .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (and change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+  
   </style>
+  
+  
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <!-- Start your code here -->
-  <div class="container">
-  <div align="center">
-    <h3><b>Curiculum Vitae</b></h3>
-    <img src='   https://blogger.googleusercontent.com/img/a/AVvXsEg471vjNQoYykuOwXly6-jR6SedrcoUc5UA-lF0tWpb3ALVlO93nt1RAVHrKHAWO8Y6sDt6kQgQQL5cQV7hI15ol4JpQSUsahbKtcloiLR1_xUXSuOn1rdeTuFj2ztN7DtftTDCXmeNwagpRrNgZ6nyMqvPuvTR1Nba8WeGLP03FiylJ9VCMKgwy7at=s320  'width='200' height='200' />
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Nama</label>
+            <input type="text" id="Nama" name="Nama" placeholder="ShofaMaulidah">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="ShofaMaulidah@Gmail.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Alamat</label>
+            <input type="text" id="Alamat" name="Alamat" placeholder="Jl. Hambalang No 56">
+            <label for="city"><i class="fa fa-institution"></i> Kota</label>
+            <input type="text" id="Kota" name="Kota" placeholder="Bogor">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="Negara">Negara</label>
+                <input type="text" id="Negara" name="Negara" placeholder="Indonesia">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10009">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i ><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO1pY-YvOUt9vdr8WLsoT2nDDMVbyUBWfnvA&usqp=CAU' width='50' height='30' /></i>
+              <i ><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA0MHR6qUDi5Qdi_V1rp2ekHS03UpdvRs_jw&usqp=CAU' width='50' height='30' /></i>
+              <i ><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThiRTz7zvqv7UlWCev_8meT0xySHHo9CJYDw&usqp=CAU' width='50' height='30' /></i>
+              <i ><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTTnBhQkmhfy1SzzWvigFpa0iPjiCw-vBqw&usqp=CAU' width='50' height='30' /></i>
+            </div>
+            <label for="cname">Nama Di Kartu</label>
+            <input type="text" id="cname" name="cardname" placeholder="Shofa Maulidah">
+            <label for="ccnum">Nomor Kartu Kredit</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="7492-1028-6472-8483">
+            <label for="expmonth">Bulan Expired </label>
+            <input type="text" id="Bulan Expired" name="Bulan Expired" placeholder="July">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Tahun Expired</label>
+                <input type="text" id="Tahun Expired" name="Tahun Expired" placeholder="2025">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Alamat pengiriman sama dengan penagihan
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
     </div>
-    <div>
-    <p>saat ini sedang menjalankan studi di universitas STT TERPADU NURUL FIKRI mengambil jurusan sistem informasi dan saya sekarang termasuk rombongan belajar SI12</p>
-      
-      <P><b>Tempat/Tanggal lahir :  </b>Jakarta 05 Juni 2002<br></P>
-    <p><b>Agama :</b>islam<br></p>
-      <p>Tempat Tinggal: JL. Peternakan IV Sapi</p>
-      <p><b> jenis kelamin :</b>Perempuan<br></p> 
-      <p><b>Hobi :</b>Jajan<br></p>
-      <p><b>email </b>Shofa@gmail.com<br></p>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4>Cart
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i>
+          <b>4</b>
+        </span>
+      </h4>
+      <p><a href="#">Kalung</a> <span class="price">Rp. 30.000,00</span></p>
+      <p><a href="#">Tas</a> <span class="price">Rp. 700.000,00</span></p>
+      <p><a href="#">Gaun</a> <span class="price">Rp. 80.000,00</span></p>
+      <p><a href="#">Kerudung</a> <span class="price">Rp. 25.000,00</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>Rp. 835.000,00</b></span></p>
     </div>
-    </div>
-  
+  </div>
+  </div>
+
 
 <!-- End your code here -->
 <script src="script.js"></script>
-</body>
-</html>
-
-<!-- End your code here -->
 </body>
 </html>
